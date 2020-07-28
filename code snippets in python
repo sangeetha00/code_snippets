@@ -1,0 +1,20 @@
+#assingning elements to different list
+test=[1,2,3,4,5,6]
+list1 = test
+test[0]='700'
+test[4]='500'
+print(list1)
+#accessing elements from a tuple
+tup1=('apple','orange','grapes','pineapple')
+tup2=(1,2,3,4)
+tup3 =tup1+tup2;
+print  (tup3)
+#deleting different dictionary elements
+wordfecdic={
+          "hello": 34,
+          "at":45,
+          "this":56,
+}
+if "at" in wordfecdic:
+        del wordfecdic["at"]
+print( "updated dictionary:",wordfecdic)
